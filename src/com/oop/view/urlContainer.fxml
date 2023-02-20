@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="urlContainer" alignment="BOTTOM_CENTER" maxHeight="25.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="url" onMouseClicked="#urlPressed" text="/  home" textFill="#13c7e8">
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+         <font>
+            <Font name="Calibri Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
